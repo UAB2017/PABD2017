@@ -36,3 +36,7 @@ uab_andrei:
 uab_andreea_homepage    :
     resource: "@UabIrincaBundle/Resources/config/routing.yml"
     prefix:   /irinca
+
+uab_augustin    :
+    resource: "@UabAugustinBundle/Resources/config/routing.yml"
+    prefix:   /augustin

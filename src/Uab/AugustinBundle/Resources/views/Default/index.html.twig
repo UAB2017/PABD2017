@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+
+{% block stylesheets %}
+  <link rel="stylesheet" href="{{asset('bundles/uabaugustin/web/css/augustin.css')}}">
+  <link rel="stylesheet" href="{{asset('//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css')}}">
+{% endblock %}
+
+{% block body %}
+
+  <div class="container">
+    <h1>{{Title}}</h1>
+
+    <img id="profilPhoto" src="/bundles/uabaugustin/web/images/groza.jpg">
+
+    <div id="accordion">
+
+      <h3 id="pth1">Universitate</h3>
+      <p id="ptp1">1 Decembrie 1918 din Alba Iulia</p>
+
+      <h3 id="pth2">Varsta</h3>
+      <p id="ptp2">24</p>
+
+<h3 id="pth3">Profesie</h3>
+      <p id="ptp3">Tehnician web</p>
+    </div>
+<button type="button" onclick="myFunction()">Set font</button>
+  </div>
+{% endblock %}
+
+{% block javascripts %}
+  <script src="{{ asset('js/jquery-3.2.1.js') }}"></script>
+
+  <script src="{{ asset('bundles/uabaugustin/web/js/augustin.js') }}"></script>
+{% endblock %}
