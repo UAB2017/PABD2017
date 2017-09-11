@@ -1,3 +1,9 @@
+cristian:
+   resource: "@CristianBundle/Resources/config/routing.yml"
+   prefix:   /cristian
+
+
+
 uab_tecsa:
     resource: "@UabTecsaBundle/Resources/config/routing.yml"
     prefix:   /tecsa
@@ -20,6 +26,7 @@ uab_magerusan:
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
+
 
 uab_marius:
     resource: "@UabBreazBundle/Resources/config/routing.yml"

@@ -1,0 +1,63 @@
+{% extends 'base.html.twig' %}
+{% block stylesheets %}
+	<link rel="stylesheet" href="{{asset('bundles/uabcristian/web/css/style.css') }}" />
+{% endblock %}
+{% block body %}
+
+<div id ="animate"></div>
+  <div class="container">
+
+	<div class="row">
+
+	<h1 id="hh">{{title}}</h1>
+
+	  <div class="col-xs-4">
+		<img id="profil" src="/bundles/uabcristian/web/images/conisor.jpg">
+	  </div>
+
+	  <div class="schimba">
+
+
+		<div id="info">
+			<div class="row">
+				<label>Universitate:</label>
+				<span>Universitatea "1 Decembrie 1918"</span>
+			</div>
+			<div class="row">
+				<label>Oras:</label>
+				<span>Alba Iulia</span>
+			</div>
+			<div class="row">
+				<label>Specializare:</label>
+				<span>Programare Avansata si Baze de Date</span>
+			</div>
+			<div class="row">
+				<label>Varsta:</label>
+				<span>28</span>
+			</div>
+
+
+			<div class="row">
+				<button id="demoBtn" class="btn btn-default">Demo</button>
+			</div>
+			<div class="row">
+				
+				<a href="/Cristian/number" class="btn btn-default">Get a Random Number</a>
+			</div>	
+			<div class="row">
+				<a href="https://www.facebook.com/thefatherx">
+					<img alt="No image" src="http://graph.facebook.com/732132268/picture?type=square">
+				</a>
+			</div>
+		</div>
+
+
+</div>
+	</div>
+	</div>
+{% endblock %}
+{% block javascripts %}
+  <script src="{{ asset('js/jquery-3.2.1.js') }}"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="{{ asset('bundles/uabcristian/web/js/script.js') }}"></script>
+{% endblock %}

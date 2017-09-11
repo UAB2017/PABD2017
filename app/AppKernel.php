@@ -21,12 +21,12 @@ class AppKernel extends Kernel
             new Uab\MagerusanBundle\UabMagerusanBundle(),
             new Uab\SolymosiBundle\UabSolymosiBundle(),
             new Uab\BreazBundle\UabBreazBundle(),
-	    new Uab\PocrisBundle\UabPocrisBundle(),
-	    new Uab\IspasBundle\UabIspasBundle(),
+	        new Uab\PocrisBundle\UabPocrisBundle(),
+	        new Uab\IspasBundle\UabIspasBundle(),
             new Uab\TecsaBundle\UabTecsaBundle(),
-           new Uab\IrincaBundle\UabIrincaBundle(),
-    new Uab\AugustinBundle\UabAugustinBundle(),
-
+            new Uab\IrincaBundle\UabIrincaBundle(),
+            new Uab\AugustinBundle\UabAugustinBundle(),
+            new Uab\CristianBundle\CristianBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {
