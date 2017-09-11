@@ -1,0 +1,3 @@
+cristian_homepage:
+    path:     /
+    defaults: { _controller: CristianBundle:Default:index }
